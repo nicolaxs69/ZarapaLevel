@@ -1,15 +1,14 @@
 ﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
+//Clase abstracta de la que heredaran todos los comandos del videojuego
+//por eso, esta clase no debe heredar necesariamente de monobehavior
 
-public class Command : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+public abstract class Command
+{
+
+	//metodo abstracto para ejecutar el comando para el actor dado
+	public abstract void execute(GameObject actor);
+
 }

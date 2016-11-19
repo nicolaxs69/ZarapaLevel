@@ -90,7 +90,581 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/control
+        weight: 1
+      - path: Armature/control/muslo_l
+        weight: 1
+      - path: Armature/control/muslo_l/pierna_l
+        weight: 1
+      - path: Armature/control/muslo_l/pierna_l/pie_l
+        weight: 1
+      - path: Armature/control/muslo_l/pierna_l/pierna_l_001
+        weight: 1
+      - path: Armature/control/muslo_r
+        weight: 1
+      - path: Armature/control/muslo_r/pierna_r
+        weight: 1
+      - path: Armature/control/muslo_r/pierna_r/pie_r
+        weight: 1
+      - path: Armature/control/muslo_r/pierna_r/pierna_r_001
+        weight: 1
+      - path: Armature/control/pecho
+        weight: 1
+      - path: Armature/control/pecho/brazoup_l
+        weight: 1
+      - path: Armature/control/pecho/brazoup_l/brazolow_l
+        weight: 1
+      - path: Armature/control/pecho/brazoup_l/brazolow_l/brazolow_l_001
+        weight: 1
+      - path: Armature/control/pecho/brazoup_l/brazolow_l/mano_l
+        weight: 1
+      - path: Armature/control/pecho/brazoup_r
+        weight: 1
+      - path: Armature/control/pecho/brazoup_r/brazolow_r
+        weight: 1
+      - path: Armature/control/pecho/brazoup_r/brazolow_r/brazolow_r_001
+        weight: 1
+      - path: Armature/control/pecho/brazoup_r/brazolow_r/mano_r
+        weight: 1
+      - path: Armature/control/pecho/cabeza
+        weight: 1
+      - path: Armature/control/pecho/cabeza/hoja
+        weight: 1
+      - path: pCube1
+        weight: 1
+      - path: pCube1/transform1
+        weight: 1
+      - path: pCube2
+        weight: 1
+      - path: pCube2/transform2
+        weight: 1
+      - path: pCube3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: jumping
+      takeName: jumping
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/control
+        weight: 1
+      - path: Armature/control/muslo_l
+        weight: 1
+      - path: Armature/control/muslo_l/pierna_l
+        weight: 1
+      - path: Armature/control/muslo_l/pierna_l/pie_l
+        weight: 1
+      - path: Armature/control/muslo_l/pierna_l/pierna_l_001
+        weight: 1
+      - path: Armature/control/muslo_r
+        weight: 1
+      - path: Armature/control/muslo_r/pierna_r
+        weight: 1
+      - path: Armature/control/muslo_r/pierna_r/pie_r
+        weight: 1
+      - path: Armature/control/muslo_r/pierna_r/pierna_r_001
+        weight: 1
+      - path: Armature/control/pecho
+        weight: 1
+      - path: Armature/control/pecho/brazoup_l
+        weight: 1
+      - path: Armature/control/pecho/brazoup_l/brazolow_l
+        weight: 1
+      - path: Armature/control/pecho/brazoup_l/brazolow_l/brazolow_l_001
+        weight: 1
+      - path: Armature/control/pecho/brazoup_l/brazolow_l/mano_l
+        weight: 1
+      - path: Armature/control/pecho/brazoup_r
+        weight: 1
+      - path: Armature/control/pecho/brazoup_r/brazolow_r
+        weight: 1
+      - path: Armature/control/pecho/brazoup_r/brazolow_r/brazolow_r_001
+        weight: 1
+      - path: Armature/control/pecho/brazoup_r/brazolow_r/mano_r
+        weight: 1
+      - path: Armature/control/pecho/cabeza
+        weight: 1
+      - path: Armature/control/pecho/cabeza/hoja
+        weight: 1
+      - path: pCube1
+        weight: 1
+      - path: pCube1/transform1
+        weight: 1
+      - path: pCube2
+        weight: 1
+      - path: pCube2/transform2
+        weight: 1
+      - path: pCube3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: paracaidas
+      takeName: paracaidas
+      firstFrame: 0
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/control
+        weight: 1
+      - path: Armature/control/muslo_l
+        weight: 1
+      - path: Armature/control/muslo_l/pierna_l
+        weight: 1
+      - path: Armature/control/muslo_l/pierna_l/pie_l
+        weight: 1
+      - path: Armature/control/muslo_l/pierna_l/pierna_l_001
+        weight: 1
+      - path: Armature/control/muslo_r
+        weight: 1
+      - path: Armature/control/muslo_r/pierna_r
+        weight: 1
+      - path: Armature/control/muslo_r/pierna_r/pie_r
+        weight: 1
+      - path: Armature/control/muslo_r/pierna_r/pierna_r_001
+        weight: 1
+      - path: Armature/control/pecho
+        weight: 1
+      - path: Armature/control/pecho/brazoup_l
+        weight: 1
+      - path: Armature/control/pecho/brazoup_l/brazolow_l
+        weight: 1
+      - path: Armature/control/pecho/brazoup_l/brazolow_l/brazolow_l_001
+        weight: 1
+      - path: Armature/control/pecho/brazoup_l/brazolow_l/mano_l
+        weight: 1
+      - path: Armature/control/pecho/brazoup_r
+        weight: 1
+      - path: Armature/control/pecho/brazoup_r/brazolow_r
+        weight: 1
+      - path: Armature/control/pecho/brazoup_r/brazolow_r/brazolow_r_001
+        weight: 1
+      - path: Armature/control/pecho/brazoup_r/brazolow_r/mano_r
+        weight: 1
+      - path: Armature/control/pecho/cabeza
+        weight: 1
+      - path: Armature/control/pecho/cabeza/hoja
+        weight: 1
+      - path: pCube1
+        weight: 1
+      - path: pCube1/transform1
+        weight: 1
+      - path: pCube2
+        weight: 1
+      - path: pCube2/transform2
+        weight: 1
+      - path: pCube3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: running
+      takeName: running
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/control
+        weight: 1
+      - path: Armature/control/muslo_l
+        weight: 1
+      - path: Armature/control/muslo_l/pierna_l
+        weight: 1
+      - path: Armature/control/muslo_l/pierna_l/pie_l
+        weight: 1
+      - path: Armature/control/muslo_l/pierna_l/pierna_l_001
+        weight: 1
+      - path: Armature/control/muslo_r
+        weight: 1
+      - path: Armature/control/muslo_r/pierna_r
+        weight: 1
+      - path: Armature/control/muslo_r/pierna_r/pie_r
+        weight: 1
+      - path: Armature/control/muslo_r/pierna_r/pierna_r_001
+        weight: 1
+      - path: Armature/control/pecho
+        weight: 1
+      - path: Armature/control/pecho/brazoup_l
+        weight: 1
+      - path: Armature/control/pecho/brazoup_l/brazolow_l
+        weight: 1
+      - path: Armature/control/pecho/brazoup_l/brazolow_l/brazolow_l_001
+        weight: 1
+      - path: Armature/control/pecho/brazoup_l/brazolow_l/mano_l
+        weight: 1
+      - path: Armature/control/pecho/brazoup_r
+        weight: 1
+      - path: Armature/control/pecho/brazoup_r/brazolow_r
+        weight: 1
+      - path: Armature/control/pecho/brazoup_r/brazolow_r/brazolow_r_001
+        weight: 1
+      - path: Armature/control/pecho/brazoup_r/brazolow_r/mano_r
+        weight: 1
+      - path: Armature/control/pecho/cabeza
+        weight: 1
+      - path: Armature/control/pecho/cabeza/hoja
+        weight: 1
+      - path: pCube1
+        weight: 1
+      - path: pCube1/transform1
+        weight: 1
+      - path: pCube2
+        weight: 1
+      - path: pCube2/transform2
+        weight: 1
+      - path: pCube3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: shoting
+      takeName: shoting
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/control
+        weight: 1
+      - path: Armature/control/muslo_l
+        weight: 1
+      - path: Armature/control/muslo_l/pierna_l
+        weight: 1
+      - path: Armature/control/muslo_l/pierna_l/pie_l
+        weight: 1
+      - path: Armature/control/muslo_l/pierna_l/pierna_l_001
+        weight: 1
+      - path: Armature/control/muslo_r
+        weight: 1
+      - path: Armature/control/muslo_r/pierna_r
+        weight: 1
+      - path: Armature/control/muslo_r/pierna_r/pie_r
+        weight: 1
+      - path: Armature/control/muslo_r/pierna_r/pierna_r_001
+        weight: 1
+      - path: Armature/control/pecho
+        weight: 1
+      - path: Armature/control/pecho/brazoup_l
+        weight: 1
+      - path: Armature/control/pecho/brazoup_l/brazolow_l
+        weight: 1
+      - path: Armature/control/pecho/brazoup_l/brazolow_l/brazolow_l_001
+        weight: 1
+      - path: Armature/control/pecho/brazoup_l/brazolow_l/mano_l
+        weight: 1
+      - path: Armature/control/pecho/brazoup_r
+        weight: 1
+      - path: Armature/control/pecho/brazoup_r/brazolow_r
+        weight: 1
+      - path: Armature/control/pecho/brazoup_r/brazolow_r/brazolow_r_001
+        weight: 1
+      - path: Armature/control/pecho/brazoup_r/brazolow_r/mano_r
+        weight: 1
+      - path: Armature/control/pecho/cabeza
+        weight: 1
+      - path: Armature/control/pecho/cabeza/hoja
+        weight: 1
+      - path: pCube1
+        weight: 1
+      - path: pCube1/transform1
+        weight: 1
+      - path: pCube2
+        weight: 1
+      - path: pCube2/transform2
+        weight: 1
+      - path: pCube3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: standing
+      takeName: standing
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/control
+        weight: 1
+      - path: Armature/control/muslo_l
+        weight: 1
+      - path: Armature/control/muslo_l/pierna_l
+        weight: 1
+      - path: Armature/control/muslo_l/pierna_l/pie_l
+        weight: 1
+      - path: Armature/control/muslo_l/pierna_l/pierna_l_001
+        weight: 1
+      - path: Armature/control/muslo_r
+        weight: 1
+      - path: Armature/control/muslo_r/pierna_r
+        weight: 1
+      - path: Armature/control/muslo_r/pierna_r/pie_r
+        weight: 1
+      - path: Armature/control/muslo_r/pierna_r/pierna_r_001
+        weight: 1
+      - path: Armature/control/pecho
+        weight: 1
+      - path: Armature/control/pecho/brazoup_l
+        weight: 1
+      - path: Armature/control/pecho/brazoup_l/brazolow_l
+        weight: 1
+      - path: Armature/control/pecho/brazoup_l/brazolow_l/brazolow_l_001
+        weight: 1
+      - path: Armature/control/pecho/brazoup_l/brazolow_l/mano_l
+        weight: 1
+      - path: Armature/control/pecho/brazoup_r
+        weight: 1
+      - path: Armature/control/pecho/brazoup_r/brazolow_r
+        weight: 1
+      - path: Armature/control/pecho/brazoup_r/brazolow_r/brazolow_r_001
+        weight: 1
+      - path: Armature/control/pecho/brazoup_r/brazolow_r/mano_r
+        weight: 1
+      - path: Armature/control/pecho/cabeza
+        weight: 1
+      - path: Armature/control/pecho/cabeza/hoja
+        weight: 1
+      - path: pCube1
+        weight: 1
+      - path: pCube1/transform1
+        weight: 1
+      - path: pCube2
+        weight: 1
+      - path: pCube2/transform2
+        weight: 1
+      - path: pCube3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walking
+      takeName: walking
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/control
+        weight: 1
+      - path: Armature/control/muslo_l
+        weight: 1
+      - path: Armature/control/muslo_l/pierna_l
+        weight: 1
+      - path: Armature/control/muslo_l/pierna_l/pie_l
+        weight: 1
+      - path: Armature/control/muslo_l/pierna_l/pierna_l_001
+        weight: 1
+      - path: Armature/control/muslo_r
+        weight: 1
+      - path: Armature/control/muslo_r/pierna_r
+        weight: 1
+      - path: Armature/control/muslo_r/pierna_r/pie_r
+        weight: 1
+      - path: Armature/control/muslo_r/pierna_r/pierna_r_001
+        weight: 1
+      - path: Armature/control/pecho
+        weight: 1
+      - path: Armature/control/pecho/brazoup_l
+        weight: 1
+      - path: Armature/control/pecho/brazoup_l/brazolow_l
+        weight: 1
+      - path: Armature/control/pecho/brazoup_l/brazolow_l/brazolow_l_001
+        weight: 1
+      - path: Armature/control/pecho/brazoup_l/brazolow_l/mano_l
+        weight: 1
+      - path: Armature/control/pecho/brazoup_r
+        weight: 1
+      - path: Armature/control/pecho/brazoup_r/brazolow_r
+        weight: 1
+      - path: Armature/control/pecho/brazoup_r/brazolow_r/brazolow_r_001
+        weight: 1
+      - path: Armature/control/pecho/brazoup_r/brazolow_r/mano_r
+        weight: 1
+      - path: Armature/control/pecho/cabeza
+        weight: 1
+      - path: Armature/control/pecho/cabeza/hoja
+        weight: 1
+      - path: pCube1
+        weight: 1
+      - path: pCube1/transform1
+        weight: 1
+      - path: pCube2
+        weight: 1
+      - path: pCube2/transform2
+        weight: 1
+      - path: pCube3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: e464450ea1d134546a986c622e1c459b
+timeCreated: 1479539930
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Shadows Into Light
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: cc3e95a5c527936488fa39d254ec5220, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

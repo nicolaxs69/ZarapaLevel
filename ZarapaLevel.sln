@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{37A1EF0C-96A8-4FB3-A0F6-50A2B928EE1E}") = "ZarapaLevel", "Assembly-CSharp.csproj", "{489996DC-3D1C-A138-19AF-61E0F568BCE4}"
 EndProject
+Project("{37A1EF0C-96A8-4FB3-A0F6-50A2B928EE1E}") = "ZarapaLevel", "Assembly-UnityScript.unityproj", "{B4D76BF5-BFBC-6EDB-BEA4-FE4A403A3C03}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{489996DC-3D1C-A138-19AF-61E0F568BCE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{489996DC-3D1C-A138-19AF-61E0F568BCE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{489996DC-3D1C-A138-19AF-61E0F568BCE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4D76BF5-BFBC-6EDB-BEA4-FE4A403A3C03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4D76BF5-BFBC-6EDB-BEA4-FE4A403A3C03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4D76BF5-BFBC-6EDB-BEA4-FE4A403A3C03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4D76BF5-BFBC-6EDB-BEA4-FE4A403A3C03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

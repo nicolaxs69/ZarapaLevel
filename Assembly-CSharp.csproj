@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\ScriptCharacter\Jump.cs" />
      <Compile Include="Assets\Scripts\ScriptCharacter\Movement.cs" />
      <Compile Include="Assets\Scripts\ScriptCharacter\Turning.cs" />
+     <Compile Include="Assets\Scripts\ScriptFollowing\PathFollowing.cs" />
      <Compile Include="Assets\Scripts\ScriptItems\ItemRotation.cs" />
      <Compile Include="Assets\Scripts\ScriptTimer\cambiandode.cs" />
      <Compile Include="Assets\Scripts\ScriptTimer\otrTimer.cs" />

@@ -2,12 +2,10 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace CommandPattern
-{
 	public class InputHandler : MonoBehaviour
 	{
 		//The box we control with keys
-		public Transform boxTrans;
+		public Transform actor;
 		//The different keys we need
 		private Command buttonW, buttonS, buttonA, buttonD, buttonB, buttonZ, buttonR;
 		//Stores all commands for replay and undo
@@ -33,7 +31,7 @@ namespace CommandPattern
 //			buttonZ = new UndoCommand();
 //			buttonR = new ReplayCommand();
 
-			boxStartPos = boxTrans.position;
+			boxStartPos = actor.position;
 		}
 
 
@@ -97,7 +95,7 @@ namespace CommandPattern
 				}
 
 				//Start the replay
-				replayCoroutine = StartCoroutine(ReplayCommands(boxTrans));
+				replayCoroutine = StartCoroutine(ReplayCommands(actor));
 			}
 		}
 
@@ -123,4 +121,3 @@ namespace CommandPattern
 			isReplaying = false;
 		}
 	}
-}

@@ -25,13 +25,13 @@ namespace CommandPattern
 		void Start()
 		{
 			//Bind keys with commands
-			buttonB = new DoNothing();
-			buttonW = new MoveForward();
-			buttonS = new MoveReverse();
-			buttonA = new MoveLeft();
-			buttonD = new MoveRight();
-			buttonZ = new UndoCommand();
-			buttonR = new ReplayCommand();
+//			buttonB = new DoNothing();
+//			buttonW = new MoveForward();
+//			buttonS = new MoveReverse();
+//			buttonA = new MoveLeft();
+//			buttonD = new MoveRight();
+//			buttonZ = new UndoCommand();
+//			buttonR = new ReplayCommand();
 
 			boxStartPos = boxTrans.position;
 		}
@@ -54,31 +54,31 @@ namespace CommandPattern
 		{
 			if (Input.GetKeyDown(KeyCode.A))
 			{
-				buttonA.Execute(boxTrans, buttonA);
+	//			buttonA.Execute(boxTrans, buttonA);
 			}
 			else if (Input.GetKeyDown(KeyCode.B))
 			{
-				buttonB.Execute(boxTrans, buttonB);
+				//			buttonB.Execute(boxTrans, buttonB);
 			}
 			else if (Input.GetKeyDown(KeyCode.D))
 			{
-				buttonD.Execute(boxTrans, buttonD);
+				//				buttonD.Execute(boxTrans, buttonD);
 			}
 			else if (Input.GetKeyDown(KeyCode.R))
 			{
-				buttonR.Execute(boxTrans, buttonZ);
+				//				buttonR.Execute(boxTrans, buttonZ);
 			}
 			else if (Input.GetKeyDown(KeyCode.S))
 			{
-				buttonS.Execute(boxTrans, buttonS);
+				//			buttonS.Execute(boxTrans, buttonS);
 			}
 			else if (Input.GetKeyDown(KeyCode.W))
 			{
-				buttonW.Execute(boxTrans, buttonW);
+				//			buttonW.Execute(boxTrans, buttonW);
 			}
 			else if (Input.GetKeyDown(KeyCode.Z))
 			{
-				buttonZ.Execute(boxTrans, buttonZ);
+				//			buttonZ.Execute(boxTrans, buttonZ);
 			}
 		}
 
@@ -114,7 +114,7 @@ namespace CommandPattern
 			for (int i = 0; i < oldCommands.Count; i++)
 			{
 				//Move the box with the current command
-				oldCommands[i].Move(boxTrans);
+				//				oldCommands[i].Move(boxTrans);
 
 				yield return new WaitForSeconds(0.3f);
 			}

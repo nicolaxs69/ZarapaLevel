@@ -45,9 +45,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Command.cs" />
-     <Compile Include="Assets\Scripts\InputHandler.cs" />
-     <Compile Include="Assets\Scripts\ThirdPersonCamera.cs" />
+     <Compile Include="Assets\Scripts\ScriptCamera\ThirdPersonCamera.cs" />
+     <Compile Include="Assets\Scripts\ScriptCharacter\Command.cs" />
+     <Compile Include="Assets\Scripts\ScriptCharacter\InputHandler.cs" />
+     <Compile Include="Assets\Scripts\ScriptItems\ItemRotation.cs" />
      <None Include="Assets\BrokenVector\FreeLowPolyPack\readme.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

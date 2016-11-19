@@ -47,14 +47,10 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\ScriptCamera\ThirdPersonCamera.cs" />
      <Compile Include="Assets\Scripts\ScriptCharacter\Command.cs" />
-     <Compile Include="Assets\Scripts\ScriptCharacter\DoNothing.cs" />
      <Compile Include="Assets\Scripts\ScriptCharacter\InputHandler.cs" />
-     <Compile Include="Assets\Scripts\ScriptCharacter\MoveForward.cs" />
-     <Compile Include="Assets\Scripts\ScriptCharacter\MoveLeft.cs" />
-     <Compile Include="Assets\Scripts\ScriptCharacter\MoveReverse.cs" />
-     <Compile Include="Assets\Scripts\ScriptCharacter\MoveRight.cs" />
-     <Compile Include="Assets\Scripts\ScriptCharacter\ReplayCommand.cs" />
-     <Compile Include="Assets\Scripts\ScriptCharacter\UnCommand.cs" />
+     <Compile Include="Assets\Scripts\ScriptCharacter\Jump.cs" />
+     <Compile Include="Assets\Scripts\ScriptCharacter\Movement.cs" />
+     <Compile Include="Assets\Scripts\ScriptCharacter\Turning.cs" />
      <Compile Include="Assets\Scripts\ScriptItems\ItemRotation.cs" />
      <Compile Include="Assets\Scripts\ScriptTimer\cambiandode.cs" />
      <Compile Include="Assets\Scripts\ScriptTimer\otrTimer.cs" />
